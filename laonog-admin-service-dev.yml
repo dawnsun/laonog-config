@@ -17,12 +17,6 @@ spring:
 # 分库分表支持
 sharding:
   jdbc:
-    defaultDataSourceName:
-      type: com.zaxxer.hikari.HikariDataSource
-      driver-class-name: com.mysql.jdbc.Driver
-      username: root
-      password: root
-      jdbc-url: jdbc:mysql://127.0.0.1:3306/laonog?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     datasource:
       names: ds
       ds:
